@@ -7,30 +7,38 @@ Using [this link](https://www.w3schools.com/js/js_string_methods.asp) please des
 ```
 Name: Slice Method
 
-Description: 
+Description: extracts a part of a string and returns the extracted part in a new string.
+This example slices out a portion of a string from position 7 to position 12 (13-1).
 
 Example:
 ```
+let str = "i, love, coding";
+str.slice(3, 6)     // Returns love
 
 #### Method 2
 
 ```
-Name:
+Name: substring() Method
 
-Description:
+Description: substring() is similar to slice().
+The difference is that substring() cannot accept negative indexes
 
 Example:
 ```
+let str = "i, love, coding";
+str.slice(3, 6)     // Returns love
 
 #### Method 3
 
 ```
-Name:
+Name: The replace() method
 
-Description:
+Description: The replace() method replaces a specified value with another value in a string:
 
 Example:
 ```
+let text = "Please visit Apple!";
+let newText = text.replace("Apple", "Banana");
 
 ## Submission Guidelines
 
